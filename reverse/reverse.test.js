@@ -1,10 +1,10 @@
-const reverse = require("./reverse.js");
+const reverse = require('./reverse.js');
 
-const str = "affax";
-const rStr = "xaffa";
+const str = 'affax';
+const rStr = 'xaffa';
 
 const reversed = reverse(str);
 
-test("should return string with capitalized first char", () => {
+test('should return string with capitalized first char', () => {
   expect(reversed).toBe(rStr);
 });
